@@ -6,7 +6,7 @@ import { Component, EventEmitter, Input, Output } from "@angular/core";
   templateUrl: './InputsOutputs.html',
   styleUrls: ['./InputsOutputs.scss']
 })
-export class InputsOutputsComponent {
+export class AppComponent {
   @Input('entrada') entrada: string = 'default';
   @Output() salida: EventEmitter<string>;
 
